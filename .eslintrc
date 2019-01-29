@@ -1,0 +1,79 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "rules": {
+    "indent": [
+        "error",
+        2,
+        {
+          "ignoreComments": true,
+          "SwitchCase": 1
+        }
+    ],
+    "linebreak-style": [
+        "error",
+        "unix"
+    ],
+    "quotes": [
+        "error",
+        "single"
+    ],
+    "semi": [
+        "error",
+        "always"
+    ],
+    "eqeqeq": [
+        "error",
+        "always"
+    ],
+    "space-infix-ops": [
+        "error",
+        {"int32Hint": false}
+    ],
+    "max-len": [
+        "error",
+        {
+          "code": 80,
+          "ignoreComments": true
+        }
+    ],
+    "prefer-const": "error",
+    "no-const-assign": "error",
+    "no-var": "error",
+    "no-new-object": "error",
+    "no-array-constructor": "error",
+    "prefer-arrow-callback": "error",
+    "brace-style": "error",
+    "react/prop-types": 0,
+    "react/prefer-stateless-function": 2,
+    "react/no-array-index-key:": true,
+    "react/no-deprecated": 1,
+    "react/no-find-dom-node": 1,
+    "react/no-multi-comp:": true,
+    "react/no-this-in-sfc": 1,
+    "jsx-quotes": ["error", "prefer-single"],
+    "react/jsx-max-props-per-line": [
+      1,
+      {"maximum": 2}
+    ],
+    "jsx-a11y/label-has-for": [ "error", {
+      "required": {
+        "some": [
+          "nesting",
+          "id"
+        ]
+      }
+    }]
+  }
+}
