@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+#dist folder
+dist/
+
+#Ds Store files 
+.DS_Store
