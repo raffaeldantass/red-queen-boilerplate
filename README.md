@@ -6,6 +6,8 @@
 
 <hr>
 
+[![license](https://img.shields.io/github/license/raffaeldantass/red-queen-boilerplate.svg?style=flat)](./license.md)
+
 ## Getting Started
 
 A simple boilerplate to use with React Apps, using Redux to control App's state and Stylus to menage the styles structure.
