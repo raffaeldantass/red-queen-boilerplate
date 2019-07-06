@@ -6,6 +6,8 @@
 
 <hr>
 
+Easier to build apps with Redux/React. 
+
 [![license](https://img.shields.io/github/license/raffaeldantass/red-queen-boilerplate.svg?style=flat)](./license.md)
 
 ## Getting Started
