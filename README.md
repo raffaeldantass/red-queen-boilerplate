@@ -59,7 +59,7 @@ We are using the ESLINT in this project, check it out at:
 
 * React
 * Redux
-* Stylus
+* Styled-Components
 
 <hr>
 
