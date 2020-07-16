@@ -29,10 +29,6 @@
         "error",
         "single"
     ],
-    "semi": [
-        "error",
-        "always"
-    ],
     "eqeqeq": [
         "error",
         "always"
